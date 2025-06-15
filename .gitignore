@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+medical-data-validator/node_modules/
+medical-data-validator/client/node_modules/
+medical-data-validator/client/build/
+medical-data-validator/client/.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# 运行/上传/结果目录
+medical-data-validator/server/uploads/
+medical-data-validator/server/results/
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 其他
+.env
+.vscode/
+.idea/ 
