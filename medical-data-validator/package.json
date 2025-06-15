@@ -1,0 +1,13 @@
+{
+  "name": "medical-data-validator",
+  "version": "1.0.0",
+  "description": "医疗数据验证系统",
+  "scripts": {
+    "start": "concurrently \"cd server && node server.js\" \"cd client && npm start\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
