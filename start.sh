@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd medical-data-validator
 # 启动后端服务器
 cd server
 node server.js &
