@@ -30,7 +30,7 @@ medical-data-validator/
 ## 安装与启动
 1. **克隆仓库**
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:Hepisces/Awesome_Medicine.git
    cd medical-data-validator
    ```
 2. **安装Node依赖**
