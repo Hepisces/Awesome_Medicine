@@ -328,7 +328,7 @@ const FileUpload = () => {
                         align="center"
                         sx={{ mb: 4, fontWeight: 500, color: '#1976d2' }}
                     >
-                        数据清洗助手
+                        医疗数据清洗助手
                     </Typography>
                     <Divider sx={{ mb: 4 }} />
                     <Grid container spacing={3}>
@@ -338,7 +338,7 @@ const FileUpload = () => {
                                     <CardContent>
                                         <Typography variant="subtitle1" color="text.secondary" gutterBottom>
                                             <InfoIcon fontSize="small" sx={{ verticalAlign: 'middle', mr: 1 }} />
-                                            第一步: 选择标准数据
+                                            第一步: 选择数据标准
                                         </Typography>
                                         
                                         <Box sx={{ mt: 2 }}>
@@ -357,7 +357,7 @@ const FileUpload = () => {
                                                     fullWidth
                                                     disabled={uploading}
                                                 >
-                                                    选择标准数据文件 (CSV)
+                                                    选择数据标准文件 (CSV)
                                                 </UploadButton>
                                             </label>
                                             {standardFile && (
@@ -385,7 +385,7 @@ const FileUpload = () => {
                                     <CardContent>
                                         <Typography variant="subtitle1" color="text.secondary" gutterBottom>
                                             <InfoIcon fontSize="small" sx={{ verticalAlign: 'middle', mr: 1 }} />
-                                            第二步: 选择待验证数据
+                                            第二步: 选择待清洗数据
                                         </Typography>
                                         
                                         <Box sx={{ mt: 2 }}>
@@ -404,7 +404,7 @@ const FileUpload = () => {
                                                     fullWidth
                                                     disabled={uploading}
                                                 >
-                                                    选择待验证数据文件 (CSV)
+                                                    选择待清洗数据文件 (CSV)
                                                 </UploadButton>
                                             </label>
                                             {validationFile && (
@@ -432,7 +432,7 @@ const FileUpload = () => {
                                     <CardContent>
                                         <Typography variant="subtitle1" color="text.secondary" gutterBottom>
                                             <InfoIcon fontSize="small" sx={{ verticalAlign: 'middle', mr: 1 }} />
-                                            第三步: 开始验证
+                                            第三步: 输出数据问题与清洗建议
                                         </Typography>
                                         
                                         <Box sx={{ mt: 2 }}>
@@ -445,7 +445,7 @@ const FileUpload = () => {
                                                 sx={{ mb: 2 }}
                                                 startIcon={uploading ? <CircularProgress size={20} color="inherit" /> : null}
                                             >
-                                                {uploading ? '处理中...' : '开始验证'}
+                                                {uploading ? '处理中...' : '开始输出'}
                                             </StyledButton>
                                         </Box>
                                     </CardContent>
@@ -507,7 +507,7 @@ const FileUpload = () => {
                                         <CardContent>
                                             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
                                                 <Typography variant="subtitle1" color="success.main" sx={{ display: 'flex', alignItems: 'center' }}>
-                                                    <CheckCircleIcon sx={{ mr: 1 }} /> 验证完成
+                                                    <CheckCircleIcon sx={{ mr: 1 }} /> 输出完成
                                                 </Typography>
                                                 <DownloadButton
                                                     variant="contained"
