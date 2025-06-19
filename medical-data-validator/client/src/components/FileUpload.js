@@ -328,7 +328,7 @@ const FileUpload = () => {
                         align="center"
                         sx={{ mb: 4, fontWeight: 500, color: '#1976d2' }}
                     >
-                        医疗数据验证系统
+                        数据清洗助手
                     </Typography>
                     <Divider sx={{ mb: 4 }} />
                     <Grid container spacing={3}>
