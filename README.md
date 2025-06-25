@@ -75,14 +75,13 @@ medical-data-validator/
 
 - **端口冲突**：如 3001 端口被占用，请在`server/app.js`中修改端口
 - **依赖问题**：请严格按照`requirements.txt`和`package.json`安装依赖
-- **前端样式异常**：请使用最新版Chrome/Edge/Firefox
-- **Python脚本报错**：请确保Python版本和依赖一致，且数据文件格式正确
+- **前端样式异常**：请使用最新版 Chrome/Edge/Firefox
+- **Python 脚本报错**：请确保 Python 版本和依赖一致，且数据文件格式正确
 - **API 密钥问题**：请确保 API 密钥正确，且有足够的权限
 
 ## 展示视频
 
-我们展示了一个简单的demo以说明在打开网页后的使用方式以供参考
-![gif](demo.gif)
+我们展示了一个简单的 demo 以说明在打开网页后的使用方式以供参考
 
 [视频连接](https://github.com/user-attachments/assets/23508d4a-fc01-4be9-84f3-b0075436fe5a)
 
