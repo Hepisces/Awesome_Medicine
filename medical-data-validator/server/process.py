@@ -76,10 +76,12 @@ def process_data(standard_file, validation_file, output_file):
 
         # API URL
         url = "https://api.coze.cn/v1/workflow/run"
-        
+        with open("api_key.txt", "r") as f:
+            api_key = f.read().strip()
+
         # Headers
         headers = {
-            "Authorization": "Bearer pat_nyMlcg3dx8QHpRX1Ym09eaWuhnCWj09gkVCBJw2mvvmLKPaLjWGs71VQsDZp2Lh3",
+            "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
         }
 
