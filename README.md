@@ -82,7 +82,7 @@ medical-data-validator/
 ## 展示视频
 
 我们展示了一个简单的demo以说明在打开网页后的使用方式以供参考
-https://github.com/user-attachments/assets/23508d4a-fc01-4be9-84f3-b0075436fe5a
+![demo](https://github.com/user-attachments/assets/23508d4a-fc01-4be9-84f3-b0075436fe5a)
 
 ## 数据获取
 
