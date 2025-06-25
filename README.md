@@ -62,3 +62,14 @@ medical-data-validator/
 - **依赖问题**：请严格按照`requirements.txt`和`package.json`安装依赖
 - **前端样式异常**：请使用最新版Chrome/Edge/Firefox
 - **Python脚本报错**：请确保Python版本和依赖一致，且数据文件格式正确
+
+## 展示视频
+
+我们展示了一个简单的demo以说明在打开网页后的使用方式以供参考
+https://github.com/user-attachments/assets/23508d4a-fc01-4be9-84f3-b0075436fe5a
+
+## 数据获取
+
+基于保密需求，我们不会上传任何源数据到仓库，如果您真的需要进行实验，可以邮件联系仓库所有者并说明理由，我们会在评估后给予您回复
+
+
